@@ -1,9 +1,9 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
+  - title: "Blog"
     url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
+# - title: "Categories"
+#   url: /categories/
+  - title: "Resume"
+    url: /assets/resume/saurabhraje.pdf
+  - title: "Curriculum Vitae"
+    url: /assets/CV/saurabhraje_full.pdf
