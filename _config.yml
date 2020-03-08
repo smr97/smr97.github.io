@@ -78,6 +78,11 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/saurabhmraje"
 
+comments:
+      provider: "disqus"
+      disqus:
+        shortname: "saurabhraje"
+
 footer:
   links:
 #   - label: "Twitter"
