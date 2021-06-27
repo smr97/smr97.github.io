@@ -7,8 +7,31 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+div {
+    font-family: "Times New Roman";
+
+}
+h1 {
+    font-family: "Times New Roman";
+
+}
+h2 {
+    font-family: "Times New Roman";
+
+}
+h3 {
+    font-family: "Times New Roman";
+
+}
+
+.ivorytower{
+    font-color: "Ivory";
+}
+
+// add custom CSS after this line, can override MM imports above
 tr, td {
     border: 3px solid grey;
     border-collapse: collapse;
     border-spacing: 0;
 }
+
