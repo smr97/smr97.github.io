@@ -1,6 +1,6 @@
 main:
   - title: "Blog"
-    url: /categories/
+    url: /categories/#work
 # - title: "Categories"
 #   url: /categories/
   - title: "Resume"

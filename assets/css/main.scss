@@ -4,28 +4,41 @@
 
 @charset "utf-8";
 
+$link-color: Gray;
+$background-color: #252525;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+.greedy-nav a { color: silver; font-family: helvetica; }
+.search__toggle { color: silver}
 div {
-    font-family: "Times New Roman";
+    font-family: "Helvetica";
+    color: LightGray;
+
+}
+p {
+    font-family: "Helvetica";
+    color: #B0B0B0;
 
 }
 h1 {
-    font-family: "Times New Roman";
+    font-family: Helvetica;
+    color: LightGray;
 
 }
 h2 {
-    font-family: "Times New Roman";
+    font-family: "Helvetica";
+    color: LightGray;
 
 }
 h3 {
-    font-family: "Times New Roman";
+    font-family: "Helvetica";
+    color: LightGray;
 
 }
 
 .ivorytower{
-    font-color: "Ivory";
+    font-color: "Red";
 }
 
 // add custom CSS after this line, can override MM imports above
