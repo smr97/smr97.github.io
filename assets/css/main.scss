@@ -58,3 +58,11 @@ tr, td {
     border-spacing: 0;
 }
 
+author__avatar {
+  img {
+    max-width: 200px; /* Adjust this value to your desired size (e.g., 200px) */
+    @include breakpoint($large) {
+      max-width: 200px; /* Ensure consistency on larger screens */
+    }
+  }
+}
