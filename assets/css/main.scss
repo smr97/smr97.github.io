@@ -60,9 +60,9 @@ tr, td {
 
 author__avatar {
   img {
-    max-width: 200px; /* Adjust this value to your desired size (e.g., 200px) */
+    max-width: 500px; /* Adjust this value to your desired size (e.g., 200px) */
     @include breakpoint($large) {
-      max-width: 200px; /* Ensure consistency on larger screens */
+      max-width: 500px; /* Ensure consistency on larger screens */
     }
   }
 }
