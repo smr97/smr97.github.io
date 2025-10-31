@@ -58,11 +58,14 @@ tr, td {
     border-spacing: 0;
 }
 
-author__avatar {
-  img {
-    max-width: 500px; /* Adjust this value to your desired size (e.g., 200px) */
-    @include breakpoint($large) {
-      max-width: 500px; /* Ensure consistency on larger screens */
+@media (min-width: 80em) { /* Added (min-width: 80em) after @media */
+  .author__avatar {
+    display: block; /* or table-cell depending on your layout needs */
+    width: auto;
+    height: auto;
+    img {
+      max-width: 800px; /* Desired image width */
+      border-radius: 50%; /* if you want the circular shape */
     }
   }
 }
